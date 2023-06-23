@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hello</title>
+        <script>
+            function x()
+            {
+                document.bgColor="red";
+            }
+            function y()
+            {
+                document.bgColor="blue";
+            }
+            function z()
+            {
+                document.bgColor="green";
+            }
+            function q()
+            {
+                document.bgColor="white";
+            }
+        </script>
+    </head>
+    <!--functionon background color-->
+    <body>
+        <form name="a">
+        <!-- name:<input type="text" name="s"><br> -->
+        <input type="button" name="c" value="Red" onmouseover="x()" onmouseout="q()" >
+        <input type="button" name="d" value="Green" onmouseover="z()" onmouseout="q()" >
+        <input type="button" name="e" value="Blue" onmouseover="y()" onmouseout="q()" >
+        </form>
+    </body>
+</html>
